@@ -1,0 +1,88 @@
+{
+  "actions": [
+    {
+      "name": "MoveForward",
+      "description": "Move the character forward by a given distance",
+      "parameters": [
+        { "name": "distance", "type": "Float" }
+      ]
+    },
+    {
+      "name": "TurnLeft",
+      "description": "Rotate the character left by a given angle in degrees",
+      "parameters": [
+        { "name": "angle", "type": "Float" }
+      ]
+    },
+    {
+      "name": "TurnRight",
+      "description": "Rotate the character right by a given angle in degrees",
+      "parameters": [
+        { "name": "angle", "type": "Float" }
+      ]
+    },
+    {
+      "name": "PickUp",
+      "description": "Pick up an object in the environment",
+      "parameters": [
+        { "name": "objectId", "type": "String" }
+      ]
+    },
+    {
+      "name": "Drop",
+      "description": "Drop a currently held object",
+      "parameters": [
+        { "name": "objectId", "type": "String" }
+      ]
+    },
+    {
+      "name": "Interact",
+      "description": "Interact with an actor or object in the environment",
+      "parameters": [
+        { "name": "targetId", "type": "Actor" }
+      ]
+    },
+    {
+      "name": "Attack",
+      "description": "Attack a target actor",
+      "parameters": [
+        { "name": "targetId", "type": "Actor" },
+        { "name": "damage", "type": "Float" }
+      ]
+    },
+    {
+      "name": "UseItem",
+      "description": "Use an item from the inventory",
+      "parameters": [
+        { "name": "itemId", "type": "String" }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "objectId": "obj_001",
+      "name": "Health Pack",
+      "description": "A medical kit that restores health when used"
+    },
+    {
+      "objectId": "obj_002",
+      "name": "Wooden Crate",
+      "description": "A sturdy wooden crate that can be pushed or used as cover"
+    },
+    {
+      "objectId": "obj_003",
+      "name": "Key Card",
+      "description": "An electronic key card that unlocks restricted doors"
+    },
+    {
+      "objectId": "obj_004",
+      "name": "Ammo Box",
+      "description": "A box containing ammunition for ranged weapons"
+    },
+    {
+      "objectId": "obj_005",
+      "name": "Checkpoint Flag",
+      "description": "A flag marking a save checkpoint in the level"
+    }
+  ]
+}
