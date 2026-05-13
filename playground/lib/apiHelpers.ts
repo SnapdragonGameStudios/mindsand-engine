@@ -1,3 +1,6 @@
+// Copyright Qualcomm Innovation Center, Inc. All Rights Reserved.
+// SPDX-License-Identifier: Apache-2.0
+
 import { NextRequest } from "next/server";
 import { prisma } from "@/lib/prisma";
 

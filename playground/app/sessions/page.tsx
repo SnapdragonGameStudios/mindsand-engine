@@ -1,3 +1,6 @@
+// Copyright Qualcomm Innovation Center, Inc. All Rights Reserved.
+// SPDX-License-Identifier: Apache-2.0
+
 "use client";
 
 import Header from "@/components/Header";
