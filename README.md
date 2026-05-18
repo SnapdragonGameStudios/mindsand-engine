@@ -4,4 +4,4 @@ MindSand is an open-source framework for building real-time, context-aware behav
 
 ## License
 
-mindsand-engine is licensed under the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html). See [LICENSE](LICENSE) for the full license text.
+mindsand-engine is licensed under the [BSD-3-Clause-Clear](https://spdx.org/licenses/BSD-3-Clause-Clear.html). See [LICENSE](LICENSE) for the full license text.
