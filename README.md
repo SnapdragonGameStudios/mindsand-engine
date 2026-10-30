@@ -114,4 +114,4 @@ and
 
 under your Unreal project's `Plugins/` directory. <br>
 
-Further instructions at [README](./mindsand_ue_plugin/MindSand/README.md) and [GETTINGSTARTED](./mindsand_ue_plugin/MindSand/GETTINGSTARTED.md)
+Further instructions at [README](./mindsand_ue_plugin/README.md) and [GETTINGSTARTED](./mindsand_ue_plugin/GETTINGSTARTED.md)
