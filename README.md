@@ -48,7 +48,7 @@ MindSand Framework uses Snapdragon GameAI SDK for ASR, LLM, and TTS interfaces. 
       </td>
       <td rowspan="2">
         <a href="https://github.com/SnapdragonGameStudios/snapdragon-game-plugins-for-unreal-engine/tree/engine/5.6/Plugins/SGAI/SGAILLMPipelines">
-          <span style="background-color: #4C4B51; border-radius: 8px; padding: 4px 4px; display: inline-block;">sgai-llmpipelines</span>
+          sgai-llmpipelines
         </a>
       </td>
       <td>
@@ -115,3 +115,7 @@ and
 under your Unreal project's `Plugins/` directory. <br>
 
 Further instructions at [README](./mindsand_ue_plugin/README.md) and [GETTINGSTARTED](./mindsand_ue_plugin/GETTINGSTARTED.md)
+
+## License
+
+mindsand-engine is licensed under the [BSD-3-Clause-Clear](https://spdx.org/licenses/BSD-3-Clause-Clear.html). See [LICENSE](LICENSE) for the full license text.

@@ -1,0 +1,38 @@
+# Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+**/Binaries/Win64/**
+
+# Ignore intermediate folders
+Intermediate/
+obj/
+.vs
+.vscode
+.idea/
+
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# database (local only)
+prisma/data/
+prisma/*.db
+prisma/*.db-journal
+
+# python
+__pycache__/
+*.pyc
+
+# misc
+.DS_Store
+*.tsbuildinfo
+npm-debug.log*
