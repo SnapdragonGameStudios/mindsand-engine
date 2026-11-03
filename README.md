@@ -106,7 +106,7 @@ Clone the GitHub repository:
    ```
 
 Place or link the plugin directory 
->`mindsand-engine/mindsand_ue_plugin/MindSand/` 
+>`mindsand-engine/mindsand-ue-plugin/MindSand/` 
 
 and
 
@@ -114,7 +114,7 @@ and
 
 under your Unreal project's `Plugins/` directory. <br>
 
-Further instructions at [README](./mindsand_ue_plugin/README.md) and [GETTINGSTARTED](./mindsand_ue_plugin/GETTINGSTARTED.md)
+Further instructions at [README](./mindsand-ue-plugin/README.md) and [QUICKSTART](./mindsand-ue-plugin/QUICKSTART.md)
 
 ## License
 
